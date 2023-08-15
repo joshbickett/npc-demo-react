@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="https://www.mysteries.ai/favicon.jpg" />
       <body className={inter.className}>{children}</body>
     </html>
   );
