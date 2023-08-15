@@ -10,17 +10,6 @@ import ListItemText from "@mui/material/ListItemText";
 import IconButton from "@mui/material/IconButton";
 import InputAdornment from "@mui/material/InputAdornment";
 import SendIcon from "@mui/icons-material/Send";
-import ButtonBase from "@mui/material/ButtonBase";
-import Close from "@mui/icons-material/Close";
-import {
-  // Other imports
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogContentText,
-  DialogActions,
-  Button,
-} from "@mui/material";
 
 type Message = {
   text: string;
