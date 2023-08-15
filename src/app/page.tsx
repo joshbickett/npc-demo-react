@@ -98,7 +98,9 @@ export default function Home() {
               <ListItem key={index}>
                 <ListItemText
                   primary={message.text}
-                  // align={message.sender === "ai" ? "right" : "left"}
+                  {...({
+                    align: message.sender === "ai" ? "right" : "left",
+                  } as any)}
                 />
               </ListItem>
             ))}
