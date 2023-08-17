@@ -10,6 +10,8 @@ import ListItemText from "@mui/material/ListItemText";
 import IconButton from "@mui/material/IconButton";
 import InputAdornment from "@mui/material/InputAdornment";
 import SendIcon from "@mui/icons-material/Send";
+import PirateImage from "../images/pirate.jpeg";
+import Image from "next/image";
 
 type Message = {
   text: string;
@@ -77,14 +79,12 @@ export default function Home() {
       <HeaderContainer>
         <CharacterDetailContainer>
           <CharacterTextContainer>
-            <Header>Tom</Header>
-            <SubHeader>Test</SubHeader>
+            <Header>Captain Jareth Wavebreaker</Header>
+            <SubHeader>of Kraken Cove</SubHeader>
           </CharacterTextContainer>
 
           <CharacterImg
-            src={
-              "https://www.mysteries.ai/static/media/char-5a.e5a3c932d541cba1f5dc.jpeg"
-            }
+            src={PirateImage.src}
             alt={"character"}
             onClick={() => {}}
           />
