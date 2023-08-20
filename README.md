@@ -1,15 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+Git clone repo to local computer
+```
+git clone https://github.com/joshbickett/npc-demo-react.git
+```
+
+Change directory (CD) into new repo. 
+```
+cd npc-demo-react
+```
+
+Then install all the required packages. 
+```
+npm install
+```
+
+Then run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
